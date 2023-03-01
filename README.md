@@ -13,7 +13,7 @@ Flutter is an open source framework by Google for building natively compiled, mu
 
 [Install  Link ](https://docs.flutter.dev/get-started/install)
 
-#### Step 2: Download & run this code
+#### Step 2: Download and run this code
 
 Download the code with the following command in a command-line interface on your operating system of choice:
 
