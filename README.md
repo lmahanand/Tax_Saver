@@ -3,8 +3,8 @@ A cross platform mobile app that connects to a users bank transaction history an
 
 # Dependencies
 - [Flutter](https://docs.flutter.dev/)
-- [Android Studio] (https://developer.android.com/studio)
-- [Xcode for iOS] (https://developer.apple.com/xcode/)
+- [Android Studio](https://developer.android.com/studio)
+- [Xcode for iOS](https://developer.apple.com/xcode/)
 
 ## Setup & Installation
 -------------------------------------------------
@@ -17,11 +17,11 @@ Flutter is an open source framework by Google for building natively compiled, mu
 
 #### Step 2: Install Android Strudio
 
-Install android studio by referring the [link] (https://developer.android.com/studio)
+Install android studio by referring the [link](https://developer.android.com/studio)
 
 #### Step 3: Install xcode
 
-Refer this [link] (https://www.freecodecamp.org/news/install-xcode-command-line-tools/)
+Refer this [link](https://www.freecodecamp.org/news/install-xcode-command-line-tools/)
 
 #### Step 4: Download and run this code
 
