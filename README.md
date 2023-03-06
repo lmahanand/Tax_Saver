@@ -3,6 +3,8 @@ A cross platform mobile app that connects to a users bank transaction history an
 
 # Dependencies
 - [Flutter](https://docs.flutter.dev/)
+- [Android Studio] (https://developer.android.com/studio)
+- [Xcode for iOS] (https://developer.apple.com/xcode/)
 
 ## Setup & Installation
 -------------------------------------------------
@@ -13,7 +15,15 @@ Flutter is an open source framework by Google for building natively compiled, mu
 
 [Install  Link ](https://docs.flutter.dev/get-started/install)
 
-#### Step 2: Download and run this code
+#### Step 2: Install Android Strudio
+
+Install android studio by referring the [link] (https://developer.android.com/studio)
+
+#### Step 3: Install xcode
+
+Refer this [link] (https://www.freecodecamp.org/news/install-xcode-command-line-tools/)
+
+#### Step 4: Download and run this code
 
 Download the code with the following command in a command-line interface on your operating system of choice:
 
@@ -41,22 +51,7 @@ Lastly, run the app with this command:
 flutter run
 ``
 
-#### Step 3: Add Plaid to get transaction history
-
-[Plaid](https://plaid.com/) provides developers with tools to connect users  financial institutions to apps they love. Go to Plaid.com and signup to get an API key. Then integrate it with [this](https://github.com/jorgefspereira/plaid_flutter) plugin titled plaid-flutter. You'll need to generate a link token. I just curl'd it from command line and pasted it into the app to get Plaid's Link View to show up.
-
-Find detailed instructions [here](https://dashboard.plaid.com/overview/sandbox)
-
-Plaid example code to start Plaid Login
-
-```Dart
-
- final configuration = LinkTokenConfiguration(
-                    token: 'link-sandbox-YOURCODE');
-                await PlaidLink.open(configuration: configuration);
-```
-
-#### Step 3: Add Plaid to get transaction history
+#### Step 5: Add Plaid to get transaction history
 
 [Plaid](https://plaid.com/) provides developers with tools to connect users  financial institutions to apps they love. Go to Plaid.com and signup to get an API key. Then integrate it with [this](https://github.com/jorgefspereira/plaid_flutter) plugin titled plaid-flutter. You'll need to generate a link token. I just curl'd it from command line and pasted it into the app to get Plaid's Link View to show up.
 
